@@ -1,3 +1,0 @@
-class VeloDeMontagne extends Velo{
-    
-}
