@@ -18,10 +18,8 @@ public class SommeImpairs {
 
         for (int i = 1; i <= max; i++) {
             if (i % 2 != 0) {
-                somme += i;
+                somme += 1;
             }
         }
-
-        return somme;
     }
 }
