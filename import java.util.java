@@ -12,14 +12,13 @@ public class SommeImpairs {
 
         scanner.close();
     }
-
+}
     public static int calculeSommeImpairs(int max) {
         int somme = 0;
 
         for (int i = 1; i <= max; i++) {
             if (i % 2 != 0) {
                 somme += 1;
-            }
         }
     }
 }
