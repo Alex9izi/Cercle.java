@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class SommeImpairs {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Entrez un nombre :");
-        int nombre = s.nextInt();
+        int nombre = scanner.nextInt();
         int somme = calculeSommeImpairs(nombre);
 
         System.out.println("La somme des nombres impairs jusqu'à " + nombre + " est " + somme);
 
-        s.close();
+        scanner.close();
     }
 
     public static int calculeSommeImpairs(int max) {
